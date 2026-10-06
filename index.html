@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nandu - Final-year Computer Science Engineering student and aspiring software engineer.">
+  <title>Nandini Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">N<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">FINAL-YEAR CSE STUDENT</p>
+          <h1>Hi, I'm <span>Nandini Banothu</span><br>Building practical software.</h1>
+          <p class="hero-text">
+            Final-year Computer Science Engineering student focused on Java,
+            web development, databases, and AI-powered applications.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="assets/resume.pdf" download>Download Resume</a>
+            <a class="btn secondary" href="#projects">View Projects</a>
+          </div>
+          <div class="quick-links">
+            <!-- Replace # with your actual links -->
+            <a href="https://github.com/Nandini-Banothu1114" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/nandini-banothu-454875376/" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="mailto:nandinibanothu1114@gmail.com">Email ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="code-window">
+            <div class="window-bar"><i></i><i></i><i></i></div>
+            <pre><code><span class="purple">class</span> <span class="blue">Developer</span> {
+  String role =
+    <span class="green">"Software Engineer"</span>;
+
+  String[] skills = {
+    <span class="green">"Java"</span>,
+    <span class="green">"SQL"</span>,
+ 
+  };
+
+  <span class="purple">void</span> <span class="blue">build</span>() {
+    <span class="comment">// solve real problems</span>
+  }
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container narrow">
+        <p class="section-label">01 — ABOUT</p>
+        <h2>About me</h2>
+        <p class="about-text">
+          Final-year B.Tech CSE student with strong Java 8 ,fundamentals OOP, Collections, Exception Handling
+and web development skills in HTML 5, CSS 3, and JavaScript. Seeking a System Engineer role to apply
+my technical and problem-solving skills in delivering reliable software solutions
+        </p>
+      </div>
+    </section>
+
+    <section class="section alt" id="skills">
+      <div class="container">
+        <p class="section-label">02 — SKILLS</p>
+        <h2>Technical skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <span class="skill-icon">{ }</span>
+            <h3>Languages</h3>
+            <p>Java · JavaScript · SQL · HTML · CSS</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">⌘</span>
+            <h3>Tools</h3>
+            <p>Git · GitHub · VS Code</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">.....</span>
+            <h3>Concepts</h3>
+            <p>Operating System · DSA · Oops · Networking </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading-row">
+          <div>
+            <p class="section-label">03 — PROJECTS</p>
+            <h2>Selected work</h2>
+          </div>
+          <p class="section-note">Built to solve practical problems.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-visual visual-code">
+              <span>&lt;/&gt;</span>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-number">01</span>
+                <span class="tag">Java · Spring Boot</span>
+              </div>
+              <h3>CodeMentor</h3>
+              <p class="problem">A coding-support web application designed to help students access programming resources and practice development concepts.</p>
+              <ul>
+                <li>Built the application using Spring Boot with a structured Maven project.</li>
+                <li>Integrated MySQL for persistent application data and configured the backend for local deployment.</li>
+                <li>Created a responsive web interface using HTML, CSS and JavaScript.</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+                <a href="#" class="disabled-link">Live Demo ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-ai">
+              <span>AI</span>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-number">02</span>
+                <span class="tag">React · Flask · AI</span>
+              </div>
+              <h3>AI Video Fact Checker</h3>
+              <p class="problem">A web application concept for analyzing informational videos and helping users assess whether content appears authentic or misleading.</p>
+              <ul>
+                <li>Built a React/Vite frontend with upload and result components.</li>
+                <li>Developed a Flask backend for video-processing and analysis workflows.</li>
+                <li>Designed result output around authenticity, supporting information and risk indicators.</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+                <a href="#" class="disabled-link">Live Demo ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-review">
+              <span>✓</span>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-number">03</span>
+                <span class="tag">Python · Deep Learning</span>
+              </div>
+              <h3>AI Fake Review Detection</h3>
+              <p class="problem">A machine-learning project that classifies product reviews to identify potentially deceptive or fake review patterns.</p>
+              <ul>
+                <li>Worked with text preprocessing and feature preparation for review data.</li>
+                <li>Explored deep-learning based sequence modelling for classification.</li>
+                <li>Used threshold-based prediction to interpret model confidence.</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+                <a href="#" class="disabled-link">Demo ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-voice">
+              <span>◉</span>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-number">04</span>
+                <span class="tag">AI · Speech · NLP</span>
+              </div>
+              <h3>VoiceConnect</h3>
+              <p class="problem">A multilingual voice and text communication concept supporting English, Hindi and selected Indian tribal languages.</p>
+              <ul>
+                <li>Designed language mappings and a simple voice/text interaction flow.</li>
+                <li>Explored speech and NLP components for multilingual communication.</li>
+                <li>Structured the prototype for experimentation through Colab/Gradio.</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+                <a href="#" class="disabled-link">Demo ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="experience">
+      <div class="container">
+        <p class="section-label">04 — ACHIEVEMENTS</p>
+        <h2>What I've done</h2>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <span class="timeline-date">NPTEL</span>
+              <h3>Programming & AI Certifications</h3>
+              <p>Completed NPTEL coursework in Programming in Java and AI Concepts & Techniques, earning a Silver badge with an 83% score in the latter.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <span class="timeline-date">Research</span>
+              <h3>Conference Paper</h3>
+              <p>Contributed to a conference paper on A Deep Reinforcement Learning for Personalized and safe Clinical Treatment recommendation.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <span class="timeline-date">Additional certifications</span>
+              <h3>· Infosys · CodeChef</h3>
+              <p>Completed learning credentials in NLP through Infosys Springboard, and Java learning through CodeChef.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <p class="section-label">05 — EDUCATION</p>
+        <h2>Education</h2>
+        <div class="education-card">
+          <div>
+            <span class="edu-year">2023 — 2027</span>
+            <h3>B.Tech — Computer Science & Engineering</h3>
+            <p>Malla Reddy Engineering College for Women (MRCEW)</p>
+            <p>CGPA:8.6</p>
+          </div>
+          <span class="edu-badge">Final Year</span>
+          <div>
+            <span class="edu-year">2021 — 2024</span>
+            <h3>Diploma — Electrical & Electronics Engineering</h3>
+            <p>Pallavi Engineering College (PEC)</p>
+            <p>CGPA:8.6</p>
+          </div>
+          <div>
+            <span class="edu-year"> 2021</span>
+            <h3>Class 10th</h3>
+            <p>Zilla Parishad High School (ZPHS)</p>
+            <P>10.0</P>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box">
+        <p class="section-label">06 — CONTACT</p>
+        <h2>Let's connect.</h2>
+        <p>I'm open to entry-level software engineering and full-stack development opportunities.</p>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:your.email@example.com">Email Me</a>
+          <a class="btn secondary" href="assets/resume.pdf" download>Download Resume</a>
+        </div>
+        <div class="contact-details">
+          <a href="mailto:nandinibanothu1114@gmail.com">nandinibanothu1114@gmail.com</a>
+          <a href="https://www.linkedin.com/in/nandini-banothu-454875376/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/Nandini-Banothu1114" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Nandu. Built with HTML, CSS & JavaScript.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
